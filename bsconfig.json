@@ -1,0 +1,28 @@
+{
+  "name": "gen_type",
+  "version": "0.1.0",
+  "gentypeconfig": {
+    "language": "typescript",
+    "module": "commonjs",
+    "shims": {},
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+  },
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "warnings": {
+    "error": "+101"
+  },
+  "namespace": true,
+  "refmt": 3
+}
