@@ -1,19 +1,4 @@
-[@gentype]
-type schoolPerson =
-  | Teacher
-  | Director
-  | Student(string);
-
-[@gentype]
-let greeting = person =>
-  switch (person) {
-  | Teacher => "Hey Professor!"
-  | Director => "Hello Director."
-  | Student("Richard") => "Still here Ricky?"
-  | Student(anyOtherName) => "Hey, " ++ anyOtherName ++ "."
-  };
-
-[@gentype]
+[@gentype.opaque]
 type operation =
   | Add(operation, operation)
   | Sum(operation, operation)
@@ -27,6 +12,9 @@ let rec calc = operation =>
   | Int(number) => number
   };
 
-// let myOp = Add(Sum(Int(2), Int(2)), Int(5));
-
-// let result = calc(myOp);
+[@gentype]
+let myint = (i) => Int(i);
+[@gentype]
+let add = (x, y) => Add(x, y);
+[@gentype]
+let sum = (x, y) => Sum(x, y);

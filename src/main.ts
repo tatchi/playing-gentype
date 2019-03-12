@@ -1,19 +1,13 @@
-import { greeting, schoolPerson, operation, calc } from "./Demo.gen";
+import { operation, calc, myint, add, sum } from "./Demo.gen";
 
-const student: schoolPerson = { tag: "Student", value: "samih" };
-const director: schoolPerson = "Director";
+// const myOp: operation = {
+//   tag: "Add",
+//   value: [
+//     { tag: "Sum", value: [{ tag: "Int", value: 2 }, { tag: "Int", value: 2 }] },
+//     { tag: "Int", value: 5 }
+//   ]
+// };
 
-console.log(greeting(student));
-console.log(greeting(director));
+const myOp: operation = add(sum(myint(2), myint(3)), myint(5));
 
-const myOp: operation = {
-  tag: "Add",
-  value: [
-    { tag: "Sum", value: [{ tag: "Int", value: 2 }, { tag: "Int", value: 2 }] },
-    { tag: "Int", value: 5 }
-  ]
-};
-
-console.log(
-  calc(myOp)
-);
+console.log(calc(myOp));

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@types/node@^11.9.4":
-  version "11.9.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.9.4.tgz#ceb0048a546db453f6248f2d1d95e937a6f00a14"
-  integrity sha512-Zl8dGvAcEmadgs1tmSPcvwzO1YRsz38bVJQvH1RvRqSR9/5n61Q1ktcDL0ht3FXWR+ZpVmXVwN1LuH4Ax23NsA==
+"@types/node@^11.11.1":
+  version "11.11.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.11.1.tgz#9ee55ffce20f72e141863b0036a6e51c6fc09a1f"
+  integrity sha512-2azXFP9n4aA2QNLkKm/F9pzKxgYj1SMawZ5Eh9iC21RH3XNcFsivLVU2NhpMgQm7YobSByvIol4c42ZFusXFHQ==
 
 arg@^4.1.0:
   version "4.1.0"
@@ -27,10 +27,10 @@ diff@^3.1.0:
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
   integrity sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA==
 
-gentype@^2.11.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/gentype/-/gentype-2.11.0.tgz#6582479dc7678a7a33ea0b43fc0cd0d5e2cacf9c"
-  integrity sha512-PLFm3VWmtaQA3igAVp6J7J8bPpP+3r9rmP9XGeHDGc+gsHaMSAdZRjRe623z39X565DkaUt7HnULgQbkA8a8tA==
+gentype@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-2.14.0.tgz#e03f625320856ce056e8ac5c2035b992ac8fe6b2"
+  integrity sha512-7ta5WoOtQOtyLrAK/L8Zc9N+OqLLYwDox3zbQ90bn0EUcdfcmNCD5UO60ZUNzY1fGUEHqKlLu5b6PlzzgiTuWw==
 
 make-error@^1.1.1:
   version "1.3.5"
@@ -50,10 +50,10 @@ source-map@^0.6.0:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-ts-node@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.0.2.tgz#9ecdf8d782a0ca4c80d1d641cbb236af4ac1b756"
-  integrity sha512-MosTrinKmaAcWgO8tqMjMJB22h+sp3Rd1i4fdoWY4mhBDekOwIAKI/bzmRi7IcbCmjquccYg2gcF6NBkLgr0Tw==
+ts-node@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.0.3.tgz#aa60b836a24dafd8bf21b54766841a232fdbc641"
+  integrity sha512-2qayBA4vdtVRuDo11DEFSsD/SFsBXQBRZZhbRGSIkmYmVkWjULn/GGMdG10KVqkaGndljfaTD8dKjWgcejO8YA==
   dependencies:
     arg "^4.1.0"
     diff "^3.1.0"
